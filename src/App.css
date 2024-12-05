@@ -1,0 +1,28 @@
+.rcw-header {
+  background: #c23827 !important;
+}
+
+.rcw-launcher {
+  background: #c23827 !important;
+}
+
+.rcw-open-launcher {
+  right: 20px;
+  position: absolute;
+  top: 12px;
+  left: 13px;
+}
+
+.rcw-close-launcher {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.mantine-Tabs-tabLabel {
+  font-size: 20px;
+}
+
+main {
+  background-color: #d1d3d6;
+}
