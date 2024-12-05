@@ -280,10 +280,9 @@ const RoadmapGenerator = () => {
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
 
-  // Xử lý sự kiện click vào node
   const handleNodeClick = (event, node) => {
-    setSelectedNode(node); // Lưu node được chọn
-    setModalOpen(true); // Mở modal
+    setSelectedNode(node);
+    setModalOpen(true);
   };
 
   // Cập nhật trạng thái hoàn thành
